@@ -1,0 +1,96 @@
+body
+{ margin: 0;
+
+    background-image: url('https://assets1.ignimgs.com/2014/05/30/tomclancysplintercellblacklist2013-widejpg-958ac5_160w.jpg?width=1280');
+    background-attachment: fixed;
+    color: white;
+}
+.Menu_bar
+{
+    position: fixed;  width: 99.8%;  height: 40px;  color: white;  border-width: 2px;  border-style: solid;  border-color: yellow; background-color: black;  background-blend-mode: soft-light;
+}
+.Home
+{ display: inline-block;  width: 100px;
+    margin: 0;  padding: 10px;  text-align: center; border-width: 1px;  border-color: yellow;  border-right-style: solid;
+}
+.Games
+{ display: inline-block;  width: 100px;
+    margin: 0;  padding: 10px;  text-align: center; border-width: 1px;  border-color: yellow;  border-right-style: solid;
+}
+.Movies
+{ display: inline-block;  width: 100px;
+    margin: 0;  padding: 10px;  text-align: center; border-width: 1px;  border-color: yellow;  border-right-style: solid;
+}
+.Music
+{ display: inline-block;  width: 100px;
+    margin: 0;  padding: 10px;  text-align: center; border-width: 1px;  border-color: yellow;  border-right-style: solid;
+}
+.Anime
+{ display: inline-block;  width: 100px;
+    margin: 0;  padding: 10px;  text-align: center; border-width: 1px;  border-color: yellow;  border-right-style: solid;
+}
+
+img
+{ width: 20px;
+    height: 20px;  border-radius: 1px;
+    background-color: white;
+}
+.images
+{ position: relative;  top: 5px; left: 350px;
+
+    display: inline-block;
+}
+.l1
+{
+    display: none;
+}
+.l2
+{
+    display: none;
+}
+.l3
+{
+    display: none;
+}
+.l4
+{
+    display: none;
+}
+.l1 .Games:hover{
+  display:block;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.Games:hover{
+ text-decoration: underline;
+}
+.Home:hover{
+ text-decoration: underline;
+}
+.Anime:hover{
+ text-decoration: underline;
+}
+.Movies:hover{
+ text-decoration: underline;
+}
+.Music:hover{
+ text-decoration: underline;
+}
+.Search{
+  display: inline-block;
+  padding-left: 20px;
+}
+input{
+  width: 400px;
+}
+.im{
+  margin-left: 10px;
+}
+.image{
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  right: 5px;
+}
